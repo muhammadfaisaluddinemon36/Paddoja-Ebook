@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "634679654913",
+    "firebase_url": "https://paddoja-38c54-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "paddoja-38c54",
+    "storage_bucket": "paddoja-38c54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634679654913:android:9bb1c7849c704736ae5e00",
+        "android_client_info": {
+          "package_name": "com.aimtechnology.paddoja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmZBfdHcjCEFKD9U4LM5yCXCPf6PrWU4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

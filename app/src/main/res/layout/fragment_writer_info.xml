@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color">
+
+    <!-- Writer's Photo -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewWriterPhoto"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/elma_behraj"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/textViewWriterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewWriterPhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="ইলমা বেহরাজ"
+        android:textAppearance="@style/TextAppearance.Paddoja"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAdditionalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWriterName"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="জন্ম ২০০৩ সালের ১৮ জুলাই। জন্ম স্থান নেত্রকোনা হলেও তার বেড়ে ওঠা সিলেটে। ছোটোবেলা থেকেই গল্প/উপন্যাসের প্রতি ছিল তার ভীষণ ঝোঁক। ক্লাসের ফাঁকে লুকিয়ে গল্পের বই পড়ার কারণে ̧গুরুজনদের তপ্তবাক ̈ও হজম করতে হয়েছে বহুবার। তবুও এই অভ্যাস কে কখনো বাদ দিতে পারেননি। সমাপ্ত গল্পকে নিজ কল্পনায় নতুনভাবে রূপ দেওয়া ছিল তার অন্যতম শখ। স্কুলের গন্ডি পেড়িয়ে একসময় তিনি সোশ্যাল মিডিয়ার গল্পরাজ্যের সঙ্গে পরিচিত হোন। যেখানে সবাই নিজ ̄ চিন্তাশক্তি প্রয়োগ করে নিজ লেখাকে আক্ষরিক রূপ দিয়ে সবার মাঝে ছড়িয়ে দেয়। তাৎক্ষণিক নিজের কল্পনায় সাজানো গল্পগুলোকেও লিখিত রূপ দিতে শুরু করলেন তিনি। পাঠকদের থেকে আশানুরূপ সাড়া পেয়ে লেখালেখির যাত্রা অব্যাহত রাখার ইচ্ছে আরও বৃদ্ধি পায়। ফলসরূপ, রক্তে মিশে যাওয়া লেখালেখিকে আরেক ধাপ এগিয়ে নিতে পাঠকদের প্রতি ভালোবাসা থেকে বইয়ের পাতায় প্রকাশ করলেন তাঁর প্রথম বই ‘মায়ামৃগ’ ।"
+        android:textSize="18sp"
+        android:textAppearance="@style/TextAppearance.Paddoja"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSocialMediaLinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAdditionalInfo"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Facebook -->
+        <ImageView
+            android:id="@+id/imageViewFacebook"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/facebook"
+            android:layout_margin="8dp"/>
+
+        <!-- Twitter -->
+        <ImageView
+            android:id="@+id/imageViewTwitter"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/instagram"
+            android:layout_margin="8dp"/>
+
+        <!-- Instagram -->
+        <ImageView
+            android:id="@+id/imageViewInstagram"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/twitter"
+            android:layout_margin="8dp"/>
+
+        <!-- Add more social media icons as needed -->
+
+    </LinearLayout>
+
+</RelativeLayout>

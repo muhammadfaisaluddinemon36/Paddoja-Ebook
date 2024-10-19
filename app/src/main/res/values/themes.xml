@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Paddoja" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        //status bar color
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+
+    // text appearance
+    <style name="TextAppearance.Paddoja" parent="Base.Theme.Paddoja">
+        <item name="android:fontFamily">@font/sl</item>
+    </style>
+
+    <style name="TextAppearance.Paddoja.ToolbarTitle" parent="Base.Theme.Paddoja">
+        <item name="android:fontFamily">@font/sl</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="Theme.Paddoja" parent="Base.Theme.Paddoja" />
+</resources>
